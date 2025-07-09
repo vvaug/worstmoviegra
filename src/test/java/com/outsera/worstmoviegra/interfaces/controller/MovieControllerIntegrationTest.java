@@ -1,7 +1,6 @@
 package com.outsera.worstmoviegra.interfaces.controller;
 
-import com.outsera.worstmoviegra.application.usecases.services.CsvReaderService;
-import com.outsera.worstmoviegra.infrastructure.repositories.MovieRepository;
+import com.outsera.worstmoviegra.application.services.CsvReaderService;
 import com.outsera.worstmoviegra.interfaces.dtos.AwardInterval;
 import com.outsera.worstmoviegra.interfaces.dtos.AwardIntervalResponse;
 import com.outsera.worstmoviegra.interfaces.dtos.MovieCSV;

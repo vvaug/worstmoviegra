@@ -1,6 +1,6 @@
 package com.outsera.worstmoviegra.application.usecases;
 
-import com.outsera.worstmoviegra.application.usecases.services.CsvReaderService;
+import com.outsera.worstmoviegra.application.services.CsvReaderService;
 import com.outsera.worstmoviegra.infrastructure.repositories.MovieRepository;
 import com.outsera.worstmoviegra.interfaces.mappers.MovieMapper;
 import lombok.RequiredArgsConstructor;
