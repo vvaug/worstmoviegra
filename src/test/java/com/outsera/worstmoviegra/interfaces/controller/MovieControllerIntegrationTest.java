@@ -33,6 +33,9 @@ class MovieControllerIntegrationTest {
         responseBody.getMin().forEach(award -> {
             assertTrue(movieExistsOnFile(csvMovies, award));
         });
+        responseBody.getMax().forEach(award -> {
+            assertTrue(movieExistsOnFile(csvMovies, award));
+        });
         assertEquals(HttpStatus.OK.value(), response.getStatusCode().value());
     }
 
